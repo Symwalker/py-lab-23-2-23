@@ -108,12 +108,16 @@
     #if(a %2==0 ):
         #print(a,end=",")
 
-#question 6
-x = int(input("enter your first num"))
-y = int(input("enter your sec num"))
-#if(x%==0 and y%==0):
-        #print(a,end=",")
-
+# question 6
+#x = int(input("enter your first num"))
+#y = int(input("enter your sec num"))
+#if(x%2==0 and y%2==0):
+       # print(a,end=",")
+x = int(input("Enter"))
+for i in range(1,x):
+        x = x *i
+        
+print(x)
 
     
     
